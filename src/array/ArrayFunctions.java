@@ -48,13 +48,17 @@ public class ArrayFunctions {
         boolean response = false;
         int index = searchValue(array, value);
         if (index != -1) {
-            for (int i = index; i <= array.length - 1; i++) {
-                array[i - 1] = array[i];
-            }
-            insertValue(array, 0);
+            shiftElements(array, index);
             response = true;
         }
         return response;
+    }
+
+    public void shiftElements(int[] array, int index) {
+        for (int i = index; i <= array.length - 1; i++) {
+            array[i - 1] = array[i];
+        }
+        insertValue(array, 0);
     }
 
     /**
