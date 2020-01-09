@@ -60,7 +60,14 @@ public class ArrayFunctions {
      * This method will search for an integer value inside an integer array.
      */
     public boolean searchValue(int[] array, int value) {
-        return false;
+        boolean response = false;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == value) {
+                response = true;
+                break;
+            }
+        }
+        return response;
     }
 
     /*
