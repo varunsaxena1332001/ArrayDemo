@@ -67,6 +67,7 @@ public class ArrayFunctions {
      */
     public boolean deleteValue(int index, int[] array) {
         boolean response = false;
+        shiftElements(array, index);
         return response;
     }
 
