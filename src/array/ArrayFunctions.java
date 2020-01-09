@@ -45,6 +45,9 @@ public class ArrayFunctions {
      * @return {@code true} if the value was deleted; {@code false} if the value was not present.
      */
     public boolean deleteValue(int[] array, int value) {
+        if (searchValue(array, value)) {
+
+        }
         return false;
     }
 
