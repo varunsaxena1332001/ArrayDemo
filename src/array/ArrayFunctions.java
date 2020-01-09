@@ -66,7 +66,8 @@ public class ArrayFunctions {
      * lets the user to delete a value based on an index of the array.
      */
     public boolean deleteValue(int index, int[] array) {
-        return false;
+        boolean response = false;
+        return response;
     }
 
     /**
