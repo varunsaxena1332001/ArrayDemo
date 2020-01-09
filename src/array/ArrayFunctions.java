@@ -16,7 +16,9 @@ public class ArrayFunctions {
      * @param value the value that is to be inserted
      */
     public void insertValue(int[] array, int value) {
-        array[array.length - 1] = value;
+        if (array[array.length - 1] == 0) {
+            array[array.length - 1] = value;
+        }
     }
 
     /**
