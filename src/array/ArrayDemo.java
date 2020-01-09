@@ -22,15 +22,15 @@ public class ArrayDemo {
         }*/
         int[] integers = new int[10];
         printArrayValues(integers);
-        initialiseIntegerArray(integers);
-        printArrayValues(integers);
+//        initialiseIntegerArray(integers);
+        /*printArrayValues(integers);
         boolean response = searchInArray(integers, 22);
         if (response) {
             System.out.println("Value found!");
         } else {
             System.out.println("Value not found");
         }
-        System.out.println(response ? "value found" : "not found");
+        System.out.println(response ? "value found" : "not found");*/
     }
 
     /**
