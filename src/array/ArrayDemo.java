@@ -22,9 +22,9 @@ public class ArrayDemo {
         }*/
         int[] integers = new int[10];
         printArrayValues(integers);
-//        initialiseIntegerArray(integers);
-        /*printArrayValues(integers);
-        boolean response = searchInArray(integers, 22);
+        initialiseIntegerArray(integers);
+        printArrayValues(integers);
+        /*boolean response = searchInArray(integers, 22);
         if (response) {
             System.out.println("Value found!");
         } else {
@@ -53,6 +53,10 @@ public class ArrayDemo {
 
     public static void printArrayValues(int[] integers) {
         System.out.println(Arrays.toString(integers));
+        /**
+         * Arrays. toString(int[]) method returns a string representation of the contents of the specified int array.
+         * The string representation consists of a list of the array's elements, enclosed in square brackets ("[]"). Adjacent elements are separated by the characters ", " (a comma followed by a space)
+         * */
     }
 
     public static void initialiseIntegerArray(int[] integerArray) {
